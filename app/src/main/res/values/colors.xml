@@ -5,4 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorAccentDark">#0b1039</color>
     <color name="backgroundEditText">#5cffffff</color>
+
+
+    <color name="white">#ffffff</color>
+
+    <!--menuicons color #6AA7F0 -->
 </resources>
