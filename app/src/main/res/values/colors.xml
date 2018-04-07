@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#5EBCC4</color>
+    <color name="colorPrimaryDark">#3974A0</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorAccentDark">#0b1039</color>
     <color name="backgroundEditText">#5cffffff</color>
 
 
     <color name="white">#ffffff</color>
+    <color name="LoginColor">#9094c8f5</color>
+    <color name="transperant">#00000000</color>
+    <color name="lightBlue">#78b7ed</color>
+
+    <color name="hintColor">#7ca9f1</color>
+    <color name="hintHeaderColor">#7ca9f1</color>
+
+    <color name="fontColor">#537c9b</color>
+
+
+
 
     <!--menuicons color #6AA7F0 -->
 </resources>

@@ -1,4 +1,7 @@
 <resources>
 
     <dimen name="menuicon_size">100dp</dimen>
+    <dimen name="menufont_size">12dp</dimen>
+
+    <dimen name="font_size">20dp</dimen>
 </resources>

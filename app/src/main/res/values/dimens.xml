@@ -12,4 +12,5 @@
 
 
     <dimen name="menuicon_size">100dp</dimen>
+    <dimen name="menufont_size">14dp</dimen>
 </resources>

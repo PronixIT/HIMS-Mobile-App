@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#FFFFFF" />
-    <stroke
-        android:width="2dip"
-        android:color="#d1e1fa" />
-    <gradient
-        android:startColor="#4585ec"
-        android:endColor="#7ca9f1"></gradient>
-    <corners android:radius="0dip" android:bottomRightRadius="18dp"
-        android:topLeftRadius="18dp"/>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorPrimary">
+    <item>
+        <shape>
 
-    <padding
-        android:bottom="5dip"
-        android:left="0dip"
-        android:right="0dip"
-        android:top="5dip" />
-</shape>
+            <stroke
+                android:width="2dip"
+                android:color="#d1e1fa" />
+            <gradient
+                android:endColor="@color/colorPrimary"
+                android:startColor="@color/colorPrimaryDark"></gradient>
+            <corners
+                android:bottomRightRadius="18dp"
+                android:radius="0dip"
+                android:topLeftRadius="18dp" />
+
+            <padding
+                android:bottom="5dip"
+                android:left="0dip"
+                android:right="0dip"
+                android:top="5dip" />
+
+        </shape>
+    </item>
+</ripple>
