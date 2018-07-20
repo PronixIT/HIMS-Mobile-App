@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/effect" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/doctors" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/registrationbackgroundstyle"
+        android:orientation="vertical"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        app:layout_marginLeftPercent="8%"
+        app:layout_marginRightPercent="8%"
+        app:layout_marginTopPercent="18%">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginRightPercent="8%"
+            app:layout_marginTopPercent="18%">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+                    <!--android:background="#39ababab"-->
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tl_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        app:hintTextAppearance="@style/MyAppearance">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/et_Mobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            android:hint="Mobile"
+                            android:text="9492501867"
+                            android:textColor="@color/fontColor"
+                            android:textColorHint="@color/hintColor"
+                            android:textSize="@dimen/font_size" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tl_Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        app:hintTextAppearance="@style/MyAppearance">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/et_Email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:enabled="false"
+                            android:hint="Email"
+                            android:paddingLeft="8dp"
+                            android:text="ramesh@gmail.com"
+                            android:textColor="@color/fontColor"
+                            android:textColorHint="@color/hintColor"
+                            android:textSize="@dimen/font_size" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <!--<View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_FullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_FullName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Full Name"
+                        android:paddingLeft="8dp"
+                        android:text=""
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_Hospital"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_Hospital"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Hospital"
+                        android:paddingLeft="8dp"
+                        android:text="Yashoda"
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_Specialization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_Specilization"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Specialization"
+                        android:paddingLeft="8dp"
+                        android:text="Orthopedic"
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_Exp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_Exp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Years in Practice"
+                        android:paddingLeft="8dp"
+                        android:text="10"
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_Qualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_Qualification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Qualification"
+                        android:paddingLeft="8dp"
+                        android:text="MBBS"
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_Timings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_Timings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Timings"
+                        android:paddingLeft="8dp"
+                        android:text="3Pm-7PM"
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/tl_Consultation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/colorPrimaryDark"
+                    app:hintTextAppearance="@style/MyAppearance">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_Consultation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Consultation Fee"
+                        android:paddingLeft="8dp"
+                        android:text="Rs.300"
+                        android:textColor="@color/fontColor"
+                        android:textColorHint="@color/hintColor"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/but_Submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/buttonstyle"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="Submit"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Ramesh"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_marginTopPercent="8%" />
+
+    <TextView
+        android:id="@+id/tv_Designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Doctor"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_marginTopPercent="14%" />
+
+
+</android.support.percent.PercentRelativeLayout>

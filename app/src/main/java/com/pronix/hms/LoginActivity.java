@@ -109,7 +109,7 @@ public class LoginActivity extends Activity implements View.OnClickListener, Vie
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 et_Password.setTextSize(28);
-                et_Password.setElevation(20);
+//                et_Password.setElevation(20);
             }
 
             @Override
@@ -118,7 +118,7 @@ public class LoginActivity extends Activity implements View.OnClickListener, Vie
                     @Override
                     public void run() {
                         et_Password.setTextSize(24);
-                        et_Password.setElevation(0);
+//                        et_Password.setElevation(0);
                     }
                 }, 200);
             }
@@ -207,12 +207,13 @@ public class LoginActivity extends Activity implements View.OnClickListener, Vie
                 break;
             case R.id.but_Login:
                 if (!validations()) {
-                    calCredentialsWebservice();
-//                    Constants.userDetails = new UserDetails();
-//                    Constants.userDetails.name = "Vamsi";
-//                    Constants.userDetails.email = "cravi.1992@gmail.com";
-//                    Constants.userDetails.mobile = et_User.getText().toString();
-//                    moveToMenuScreen();
+//                    calCredentialsWebservice();
+                    Constants.userDetails = new UserDetails();
+                    Constants.userDetails.name = "Vamsi Krishna";
+                    Constants.userDetails.email = "VKrishna01@gmail.com";
+                    Constants.userDetails.mobile = et_User.getText().toString();
+                    Constants.userDetails.userId = "DR0000001";
+                    moveToMenuScreen();
                 }
 
                 break;

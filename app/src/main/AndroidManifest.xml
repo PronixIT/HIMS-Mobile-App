@@ -21,14 +21,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".RegistrationActivity"/>
-        <activity android:name=".MenuActiivty"/>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".PatientList"/>
-        <activity android:name=".PatientDetails"/>
-        <activity android:name=".ProfileActivity"/>
-        <activity android:name=".MedicalHistoryActivity"/>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".MenuActiivty" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PatientList" />
+        <activity
+            android:name=".PatientDetails"
+            android:theme="@style/AppTheme.Detail" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MedicalHistoryActivity" />
+        <activity android:name=".Prescription" />
+        <activity android:name=".Intervention" />
+        <activity android:name=".MedicalHistoryTabs" />
+        <activity android:name=".ImpCasesActivity" />
+        <activity android:name=".Appointments" />
+        <activity android:name=".InpatientPatientDetails" />
+        <activity android:name=".InpatientList" />
+        <activity android:name=".DailyTreatment" />
+        <activity android:name=".Prerequisites"></activity>
     </application>
 
 </manifest>

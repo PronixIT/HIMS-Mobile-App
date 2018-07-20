@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/stethoscope" />-->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <!--#5f93e4-->
+            <gradient
+                android:angle="45"
+                android:endColor="#d86d4680"
+                android:centerColor="#d8815497"
+                android:startColor="#d86151A3" ></gradient>
+            <stroke
+                android:width="2dip"
+                android:color="@color/colorPrimaryDark" />
+
+            <corners android:radius="2dip" />
+
+            <padding
+                android:bottom="5dip"
+                android:left="0dip"
+                android:right="0dip"
+                android:top="2dip" />
+        </shape>
+    </item>
+</layer-list>

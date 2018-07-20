@@ -10,4 +10,12 @@
     <string name="or">OR</string>
     <string name="fb_icon">Facebook icon</string>
     <string name="instagram_icon">Instagram Icon</string>
+
+    <string name="picture_transition_name">Transition</string>
+
+
+    <string name="pronix">Pronix IT Solutions Pvt Ltd</string>
+    <string name="age">Age</string>
+    <string name="blood">Blood</string>
+    <string name="prescription">Prescription</string>
 </resources>
